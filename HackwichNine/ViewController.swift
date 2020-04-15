@@ -31,11 +31,17 @@ class ViewController: UIViewController {
             
         case 0:
             self.myLabel.text = "Index 0 selected on the Segmented Control"
+            let userInputText = inputTextDisplay.text
+                       self.myLabel.text = userInputText
         case 1:
             self.myLabel.text = "Index 1 Selected, I got this"
+            let userInputText = inputTextDisplay.text
+                       self.myLabel.text = userInputText
             
         case 2:
             self.myLabel.text = "Woohoo, this makes sense now"
+            let userInputText = inputTextDisplay.text
+                       self.myLabel.text = userInputText
             
         default:
             break
